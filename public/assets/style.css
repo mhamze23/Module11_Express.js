@@ -1,0 +1,83 @@
+:root {
+    --main-padding: 0;
+    --main-margin: 0;
+    --display-none: none;
+    --cursor-pointer: pointer;
+    --color-black: #000000;
+    --color-grey: #757575;
+    --main-font-size: 1.5rem;
+}
+
+html, body {
+    height: 100%;
+    margin: var(--main-margin);
+    padding: var(--main-padding);
+}
+
+.save-note {
+    display: var(--display-none);
+}
+
+.icons i {
+    margin: var(--main-margin) 15px;
+    font-size: var(--main-font-size);
+    cursor: var(--cursor-pointer);
+}
+
+.note-textarea, .note-title {
+    color: var(--color-black);
+    width: 100%;
+    outline: var(--main-padding);
+    border: var(--main-padding);
+}
+
+/* To avoid the textarea to resize */
+.note-textarea {
+    resize: var(--main-padding);
+    height: calc(100% - 63px);
+    padding-top: 15px;
+}
+
+.note-title {
+    height: 50px;
+    margin-top: 13px;
+    font-size: 3rem;
+}
+
+.note-title:read-only, .note-textarea:read-only {
+    color: var(--color-grey);
+}
+
+.list-container .card, .list-container .list-group, .list-container .list-group-item:first-child {
+    border-top: var(--main-padding);
+    border-top-right-radius: var(--main-padding);
+    border-top-left-radius: var(--main-padding);
+}
+
+.list-container .card {
+    height: calc(100vh - 70px);
+    border-bottom: var(--main-padding);
+    border-bottom-right-radius: var(--main-padding);
+    border-bottom-left-radius: var(--main-padding);
+}
+
+.list-container {
+    padding: var(--main-padding);
+}
+
+.list-item-title {
+    display: inline-block;
+    width: 75%;
+}
+
+.list-container i {
+    font-size: 1.1rem;
+    cursor: var(--cursor-pointer);
+}
+
+.list-container .list-group-item {
+    border-left: var(--main-padding);
+    border-right: var(--main-padding);
+    padding: 20px;
+    cursor: var(--cursor-pointer);
+}
