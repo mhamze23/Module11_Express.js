@@ -29,7 +29,7 @@ Acceptance Criteria
 
 Screenshots
 * The following animation demonstrates the application functionality:
+/Users/king/Projects/UOFT12/11-Express/Challenge/Assets/11-express-homework-demo-01.png
 
-
-
+/Users/king/Projects/UOFT12/11-Express/Challenge/Assets/11-express-homework-demo-02.png
 © 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
